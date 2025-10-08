@@ -1,5 +1,5 @@
 body, html {
-    background-image: url("/wp7298429-amsterdam-sunset-wallpapers%20(1).jpg");
+    background-image: url("wp7298429-amsterdam-sunset-wallpapers%20(1).jpg");
     background-repeat: no-repeat;
     background-size: cover; /* Optional: Makes image cover entire viewport */
     background-position: center; /* Optional: Centers the image */
@@ -47,4 +47,5 @@ input{
     margin: 5px;
     border: solid 2px lightcoral;
     border-radius: 5px;
+
 }
