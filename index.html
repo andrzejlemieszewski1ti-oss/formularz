@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Zapisz się na szkolną wycieczkę do Amsterdamu</h1>
+    </header>
+    <main>
+        <div>
+            <form action="">
+                <div>
+                    <p>Wypełnij formularz</p>
+                    <input type="text" placeholder="Imię">
+                    <input type="text" placeholder="Nazwisko">
+                    <input type="text" placeholder="e-mail">
+                    <input type="text" placeholder="numer telefonu">
+                    <input type="text" placeholder="data urodzenia">
+                    <label for="kraj">Wybierz kraj zamieszkania:</label>
+                    <select name="kraj" id="">
+                        <option value="pl">Polska</option>
+                        <option value="de">Niemcy</option>
+                        <option value="fr">Francja</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Wybierz swoją płeć</p>
+                    <label>
+                        <input type="radio" name="plec" value="m"> Mężczyzna
+                    </label>
+                    <label>
+                        <input type="radio" name="plec" value="k"> Kobieta
+                    </label>
+                    <label>
+                        <input type="radio" name="plec" value="k"> Nie wiem
+                    </label>
+                </div>
+                <div>
+                    <p>Zaznacz atrakcje</p>
+                    <label for="atrakcje">
+                        <input type="checkbox" name="zgoda" required> Przepłyń przez kanały Amsterdamu
+                    </label> 
+                    <label for="atrakcje">
+                        <input type="checkbox" name="zgoda" required> Wycieczka po dzielnicy czerwonych latarni
+                    </label>
+                    <label for="atrakcje">
+                        <input type="checkbox" name="zgoda" required> Degustacja ziół
+                    </label>
+                    <label for="atrakcje">
+                        <input type="checkbox" name="zgoda" required> Bilet do Heineken Experience z 2 drinkami
+                    </label>
+                    <input type="reset" placeholder="Resetuj">
+                    <input type="submit" placeholder="Wyślij">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
